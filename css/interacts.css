@@ -208,14 +208,61 @@
     font-size: 14px;
 }
 
-#vsa-logo {
+#vsa-logo {    
+    width: 868px;
+    image-resolution: from-image; 
+    transition: width 0.5s, height 0.5s;
+}
+
+#vsa-logo2 {    
     width: 768px;
     image-resolution: from-image; 
     transition: width 0.5s, height 0.5s;
 }
 
-@media
+@media (min-width: 600px) and (max-width: 867px)
 {
-    
+    #vsa-logo{
+        height: 300px;
+        width: 667px;
+    }
+    #vsa-logo2{
+        height: 367px;
+        width: 667px;
+    }
 }
 
+@media (min-width: 467px) and (max-width: 599px)
+{
+    #vsa-logo{
+        height: 210px;
+        width: 467px;
+    }
+    #vsa-logo2{
+        height: 227px;
+        width: 467px;
+    }
+}
+@media (min-width: 210px) and (max-width: 466px)
+{
+    #vsa-logo{
+        height: 113px;
+        width: 267px;
+    }
+    #vsa-logo2{
+        height: 127px;
+        width: 267px;
+    }
+}
+@media (min-width: 10px) and (max-width: 209px)
+{
+    #vsa-logo{
+        height: 77px;
+        width: 167px;
+    }
+    #vsa-logo2{
+        height: 100px;
+        width: 167px;
+    }
+
+}
