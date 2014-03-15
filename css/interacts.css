@@ -2,6 +2,7 @@
 	font-family: "pacifico1";	     
     src: url(pacifico.ttf)
 }
+
 @font-face { 
 	font-family: "missionscript";	     
     src: url(missionscript.otf);
@@ -198,7 +199,7 @@
 }
 
 #member-name {
-    font-family: missionscript;
+    font-family: YesterYear;
     font-size: 37px;
 }
 
