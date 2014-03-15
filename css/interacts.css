@@ -206,3 +206,15 @@
     font-family: sans-serif;
     font-size: 14px;
 }
+
+#vsa-logo {
+    width: 768px;
+    image-resolution: from-image; 
+    transition: width 0.5s, height 0.5s;
+}
+
+@media
+{
+    
+}
+
