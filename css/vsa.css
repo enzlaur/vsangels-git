@@ -1,0 +1,13 @@
+body
+{
+    background: rgb(1, 77, 95);
+    background-color: rgb(1, 77, 95);
+}
+#head-title {
+    position: relative;
+    left: -5%;
+}
+
+#head-row {
+    margin: 0px;
+}

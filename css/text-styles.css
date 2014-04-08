@@ -37,10 +37,6 @@
 {
 	font-size: 70px;
 }
-.font-120
-{
-	font-size: 120px;
-}
 .font-white
 {
 	color: white;
@@ -73,20 +69,4 @@
 .font-segoe-light {
     font-family: Segoe UI Light;
     
-}
-
-.font-300 {
-    font-size: 300px;
-}
-
-.font-center {
-    text-align: center;
-}
-
-#hiddenspace-120 {
-    padding-top: 120px;
-}
-
-.font-left {
-    text-align: left;
 }
